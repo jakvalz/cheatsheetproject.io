@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="./Resources/CSS/styles.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheatsheet</title>
+</head>
+<body>
+    <h1>Cheatsheet</h1>
+    <header>
+        <nav>
+            <h2><a href="css.html">CSS</a></h2>
+        </nav>
+    </header>
+        <h5 class="intro">Welcome! See all the tips, tricks and simply good to know for HTML 5! Cheatsheet is constantly changing, so bear with us, gracias
+        </h5>
+    <div class="container">
+    <h2>HTML 5 &lt;head&gt; element</h2>
+        <p class="description-h2">This element can easily be placed by typing in HTML into VS Code and it should automatically include
+            everything you need (except for the linking of your CSS). But that's not what this cheatsheet is about so I will
+            be describing in detail what goes in a &lt;head&gt; element and what it all means.
+    <div class="link-css-item">
+        <ol>
+                <li>&lt;link&gt; element for CSS</li>
+            <ul>
+                <li>This element is needed in order to connect your styling sheet or CSS to your HTML file.
+                    In this element after the word link you will use the |href| attribute (which stands for 'hypertext 
+                    reference') with the value of either a URL or a relative path to your CSS file. Mine will normally 
+                    look like this... <br><br><span class="code-elements">href="./Resources/CSS/styles.css"</span>
+                </li>
+                    <br>
+                <li>One other thing to set up your CSS correctly is add the attribute |rel| and set it equal to the value
+                    |stylesheet|. . This is necessary because it defines the relationship between a linked resource and 
+                    the current document, and it should look like this... <br><br><span class="code-elements">rel="stylesheet"</span>
+                </li>
+                    <br>
+                <li>All together it should look something like this...<br><br>
+                    <span class="code-elements">&lt;link href="./Resources/CSS/styles.css" rel="stylesheet"&gt;</span>
+                </li>
+            </ul>
+        </ol>
+    </div>
+    </div>
+        <h2 class="tabletitle">Tables in HTML 5</h2>
+    <div class="table">
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col" id="smileyface">~D</th>
+                    <th scope="col">Col Tbl Hdng 1</th>
+                    <th scope="col">Col Tbl Hdng 2</th>
+                    <th scope="col">Col Tbl Hdng 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><th scope="row">Row Tbl Hdng 1</th>
+                    <td>Cell 1</td>
+                    <td>Cell 2</td>
+                    <td>Cell 3</td>
+                </tr>
+                <tr>
+                    <th scope="row">Row Tbl Hdng 1</th>
+                    <td>Cell 4</td>
+                    <td>Cell 5</td>
+                    <td>Cell 6</td>
+                </tr>
+                <tr>
+                    <th scope="row">Row Tbl Hdng 1</th>
+                    <td>Cell 7</td>
+                    <td>Cell 8</td>
+                    <td>Cell 9</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+<footer class="footercontainer">
+        <h6>More Info</h6>
+            <p class="footerdescription">Select from all the sources available to gain a deeper understanding of HTML 5 and CSS 3</p>
+    <div class="footercontent">
+        <div class="footermain"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN Web Docs</a></div>
+        <div class="footermain"><a href="https://www.w3schools.com/html/default.asp">W3School</a></div>
+        <div class="footermain"><a href="https://www.freecodecamp.org/news/tag/css/">freecodecamp(HTML CSS)</a></div>
+        <div class="footermain"><a href="https://www.codecademy.com/resources/docs/html">Codecademy(HTML)</a></div>
+        <div class="footermain"><a href="https://www.codecademy.com/resources/docs/css">Codecademy(CSS)</a></div>
+    </div>
+</footer>
+</body>
+</html> 

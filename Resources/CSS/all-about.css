@@ -1,0 +1,244 @@
+@font-face {
+    font-family: 'Monsterrat';
+    src: url('/Resources/fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/Resources/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Handjet';
+    src: url('/Resources/fonts/Handjet/Handjet-VariableFont_ELGR,ELSH,wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('/Resources/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SpaceGrotesk';
+    src: url('/Resources/fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SUSE';
+    src: url('/Resources/fonts/SUSE/SUSE-VariableFont_wght.ttf') format('truetype');
+}
+
+body {
+    background-image: url('/Resources/images/cozy-outdoors.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+/*title of web page, introduction*/
+p, h1, .colors-title, .colors-name, .typography-title, h2, h3, h4, h5, h6 {
+    font-family: 'Monsterrat', sans-serif;
+}
+
+h1, .with {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 7px 0cap 7px rgb(202, 83, 16);
+    letter-spacing: 20px;
+    font-size: 3em;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.with {
+    color: rgb(105, 30, 6);
+    font-weight: 250;
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+
+.introduction {
+    font-style: italic;
+    font-size: x-large;
+    text-shadow: 1px 3px 1px rgb(189, 98, 37);
+    color: beige;
+    margin-left: 60px;
+}
+
+.explanation {
+    font-size: small;
+    text-shadow: none;
+}
+
+/*main part of site, the content*/
+/*colores div*/
+.colors-title, .typography-title {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 60px;
+    margin-top: 100px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 7px 5px rgb(187, 77, 0);
+}
+
+.colors-container, .typography-container, footer {
+    border: 1px solid rgb(187, 77, 0);
+    border-radius: 40px;
+    box-sizing: border-box;
+    background-color: rgba(251, 186, 114, 0.5);
+}
+
+.colors-container {
+    width: 100%;
+    margin: 0px auto;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.colors-name {
+    margin-bottom: 25px;
+    font-weight: 600;
+    color: bisque;
+    text-shadow: 2px 1px 0px rgb(0, 0, 0);
+}
+
+.box-color {
+    list-style: none;
+    text-align: center;
+}
+
+.box {
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px 20px;
+    width: 125px;
+    align-content: center;
+}
+
+
+/*colors in the resepective boxes*/
+#bisque {
+    background-color: rgb(255, 228, 196);
+}
+
+#tan {
+    background-color: rgb(251, 186, 114);
+}
+
+#orange-brown {
+    background-color: rgb(202, 83, 16);
+}
+
+#just-brown {
+    background-color: rgb(187, 77, 0);
+}
+
+#dark-red {
+    background-color: rgb(143, 37, 12);
+}
+
+#brown-red {
+    background-color: rgb(105, 30, 6);
+}
+
+/*typography div*/
+.typography-container {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   margin: 10px;
+   text-align: center;
+}
+
+.typography-container2, .typography-container3, .typography-container4, .typography-container5, .typography-container6 {
+   margin: 15px 15px;
+   padding: 25px;
+}
+
+.typography-container3 * {
+    font-family: 'Handjet';
+    line-height: 140%;
+}
+
+.typography-container4 * {
+    font-family: 'Roboto';
+    line-height: 140%;
+}
+
+.typography-container5 * {
+    font-family: 'SpaceGrotesk';
+
+}
+
+.typography-container6 * {
+    font-family: 'SUSE';
+}
+
+#h1name6 {
+    text-transform: uppercase;
+    text-shadow: none;
+    color: black;
+    letter-spacing: normal;
+    font-size: xx-large;
+}
+
+#h1name5, #h1name4, #h1name3, #h1name2 {
+    text-shadow: none;
+    color: black;
+    letter-spacing: normal;
+    font-size: xx-large;
+    text-transform: none;
+}
+
+#h1 {
+    text-shadow: none;
+    color: black;
+    letter-spacing: normal;
+    font-size: xx-large;
+    text-transform: lowercase;
+}
+
+.paragraph {
+    font-size: large;
+}
+
+.paragraph p:nth-of-type(2) {
+    font-style: italic;
+}
+
+.paragraph p:nth-of-type(3) {
+    font-weight: 200;
+}
+
+.paragraph p:nth-of-type(4) {
+    font-weight: 900;
+}
+
+.paragraph p:nth-of-type(5) {
+    text-transform: uppercase;
+}
+
+footer {
+    position: static;
+    text-indent: 25px;
+    background-color: rgb(105, 30, 6);
+    margin: 3px auto;
+}
+
+footer div {
+    display:inline-flex;
+    align-content: center;
+    justify-content: right;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
