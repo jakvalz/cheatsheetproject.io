@@ -17,7 +17,7 @@ h2, h5, h6 .description-h2, .footercontainer, .intro {
 }
 
 body {
-    background-image: url('/Resources/images/binary-code.jpg');
+    background-image: url('https://github.com/jakvalz/cheatsheetproject.io/blob/d77c217ac3cf3251cc5eb6128da591421f01418c/binary-code.jpg');
     background-attachment: fixed;
 }
 
